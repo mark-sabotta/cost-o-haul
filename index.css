@@ -1,0 +1,42 @@
+body {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.results {
+    border: 2px;
+    border-style: solid;
+    margin-top: 3rem;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+table {
+    width: 50%;
+}
+
+.top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basis {
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resultLabel {
+    text-align: center;
+}
+
+.disclaimer {
+    font-style: italic;
+}
